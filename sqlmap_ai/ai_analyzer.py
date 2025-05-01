@@ -11,7 +11,7 @@ def ai_suggest_next_steps(report, scan_history=None, extracted_data=None):
     structured_info = extract_sqlmap_info(report)
     prompt = create_advanced_prompt(report, structured_info, scan_history, extracted_data)
     print_info("Sending detailed analysis request to Groq AI...")
-    response = get_groq_response(prompt=prompt, model="qwen-2.5-coder-32b")
+    response = get_groq_response(prompt=prompt, model="qwen-qwq-32b")
     if not response:
         print_warning("AI couldn't suggest options, using fallback options")
         return ["--technique=BEU", "--level=3"]
