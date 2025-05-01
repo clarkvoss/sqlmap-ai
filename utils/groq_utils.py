@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 def get_groq_response(
     prompt: str,
-    model: str = "qwen-2.5-coder-32b",
+    model: str = "qwen-qwq-32b",
     role: str = "user",
     max_retries: int = 3,
     retry_delay: int = 2,
