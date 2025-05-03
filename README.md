@@ -77,7 +77,7 @@ The adaptive mode will:
 
 ## Examples
 
-[![asciicast](https://asciinema.org/a/rYwCz57ICKLbg4YtCTvWTFpvl.svg)](https://asciinema.org/a/rYwCz57ICKLbg4YtCTvWTFpvl)
+![demo](./sqlmap.gif)
 
 ### Testing a vulnerable web application
 
