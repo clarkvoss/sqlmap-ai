@@ -329,3 +329,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - SQLMap project: https://github.com/sqlmapproject/sqlmap
 - Groq API for AI-powered suggestions 
+```
+
+## Disclaimer
+This tool is intended for educational and ethical hacking purposes only. Always obtain permission before testing any system or application. The developers are not responsible for any misuse or damage caused by this tool.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=atiilla/sqlmap-ai&type=Date)](https://www.star-history.com/#atiilla/sqlmap-ai&Date)
