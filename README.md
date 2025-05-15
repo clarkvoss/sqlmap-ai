@@ -9,6 +9,17 @@ An AI-powered wrapper around SQLMap that makes SQL injection testing more access
 - User-friendly output and reporting
 - **NEW: Adaptive step-by-step testing with DBMS-specific optimizations and WAF bypass**
 
+## Features - Updates
+- Here's what the modified repository includes:
+
+local_llm_handler.py: Handles interactions with the local Phi-2 model using Hugging Face's Transformers library.
+
+Updated run.py: Includes a --local flag to switch between OpenAI and local LLM modes.
+
+Modified requirements.txt: Adds necessary dependencies for running the local model.
+
+Sample .env file: For configuring environment variables.
+
 ## Requirements
 
 - Python 3.7+
