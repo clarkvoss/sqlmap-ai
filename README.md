@@ -20,6 +20,46 @@ Modified requirements.txt: Adds necessary dependencies for running the local mod
 
 Sample .env file: For configuring environment variables.
 
+Minimal Python Download Script
+Create a file called download_model.py:
+
+python
+Copy
+Edit
+# download_model.py
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+print("[*] Downloading Microsoft Phi-2 model...")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2")
+model = AutoModelForCausalLM.from_pretrained("microsoft/phi-2")
+print("[+] Done downloading.")
+Then create a setup.sh bash script:
+
+bash
+Copy
+Edit
+#!/bin/bash
+
+echo "[*] Creating virtual environment..."
+python3 -m venv venv
+source venv/bin/activate
+
+echo "[*] Installing dependencies..."
+pip install --upgrade pip
+pip install -r requirements.txt
+
+echo "[*] Downloading model..."
+python download_model.py
+
+echo "[+] Setup complete!"
+Run with:
+
+bash
+Copy
+Edit
+chmod +x setup.sh
+./setup.sh
+
 ## Requirements
 
 - Python 3.7+
