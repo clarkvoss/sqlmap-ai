@@ -30,7 +30,7 @@ Sample .env file: For configuring environment variables.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/sqlmap-ai.git
+git clone https://github.com/yclarkvoss/sqlmap-ai.git
 cd sqlmap-ai
 ```
 
